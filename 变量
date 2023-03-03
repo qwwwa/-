@@ -1,0 +1,46 @@
+#include<stdio.h>
+int age=18; //全局变量
+int main()
+{
+	printf("1:%d\n",age);
+	printf("wanye\n");
+	{
+		printf("2:%d\n", age);
+		int a = 1;
+		printf("a=%d\n", a);
+	}
+	printf("3:%d\n", age);
+	return 0;
+}
+
+
+//局部变量
+#include<stdio.h>
+int main()
+{
+	printf("wanye\n");
+	int a = 1;        //局部变量
+	printf("a=%d\n", a);
+	return 0;
+}
+
+int main()
+{
+	printf("wanye"\n");
+	printf("a=%d\n", a);
+	{
+		int a = 1;   //局部变量
+	}
+	return 0;
+}
+
+
+int main()
+{
+	printf("wanye\n");
+	{
+		int a = 1;    //局部变量
+		printf("a=%d\n", a);
+	}
+	return 0;
+}
