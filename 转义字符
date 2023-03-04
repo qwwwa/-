@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+  printf("c:\test\test.c");     //c: est est
+	printf("ab\ncd");             //ab cd
+	printf("(are you ok??)") ;    //??) -- ] 
+	printf("%c\n", '\'');         //'
+	printf("%s\n","\"");          //"
+	printf("%s\n", "a");          //a
+  return 0;
+}
+
+/*
+printf 输出格式
+printf("%d",100)  -- 整型
+printf("%c"，'a')  -- 字符
+printf("%s","abc") -- 字符串
+*/
