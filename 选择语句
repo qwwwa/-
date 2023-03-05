@@ -1,0 +1,14 @@
+#include〈stdio.h〉
+int main()
+{
+    int input=0;
+    printf("要赚钱:>");
+    printf("要赚钱吗(1/0)？>:");
+    scanf("％d",&input)；
+    
+    if (input＝＝1)；
+        printf("有钱\n");
+    else
+        printf("箪食瓢饮影响不良\n");
+    return 0;
+}
