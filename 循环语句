@@ -1,0 +1,17 @@
+//写代码  ---  30000句 ---- 获得offer ---- 有钱
+
+#include<stdio.h>
+int main()
+{
+int line=0;
+while(line<300000);
+{
+  printf("写代码：%d\n",line)
+  line++;
+}
+  if(line==30000)
+{
+  printf("有钱”）；
+}
+return 0;
+}
