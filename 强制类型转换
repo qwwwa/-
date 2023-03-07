@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+	//int a = 3.14;   //警告
+	int a=(int)3.14;  //强制类型转换
+	printf("%d\n", a);
+
+	return 0;		
+}
