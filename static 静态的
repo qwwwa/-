@@ -1,0 +1,23 @@
+#include<stdio.h>
+1.static 修饰局部变量
+2.static 修饰全局变量
+3.static 修饰函数*/
+
+#include<stdio.h>
+void test()
+{
+	int a = 1;        //2222222222
+  static int a = 1;   //234567891011
+	a++;
+	printf("%d ", a);
+}
+int main()
+{
+	int i = 0;
+	while (i < 10)
+	{
+		test();
+		i++;
+	}
+	return 0;
+}
