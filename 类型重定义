@@ -1,0 +1,9 @@
+typedef 类型重命名
+#include<stdio.h>
+typedef unsigned int uint;
+int main()
+{
+	unsigned int num = 100;
+	uint num2 = 100;
+	return 0;
+}
