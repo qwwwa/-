@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	int a = 10;
+	printf("%p\n",&a);		//%p打印地址
+	int* pa = &a;
+	
+  char ch = 's';
+	char*pc = &ch;
+	return 0;
+}
