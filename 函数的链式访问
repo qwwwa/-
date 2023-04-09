@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+	printf("%d", printf("%d", printf("%d", 43)));
+	return 0;
+}
+
+//43 2 1
+//函数返回的是打印在屏幕上面的字符的个数
